@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSS Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <a class="navbar-brand" href="main.html">Garrett Stein-Seroussi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="portfolio.html">Portfolio</a>
+          <a class="nav-link active" href="contact.html">Contact</a>
+          <a
+            class="nav-link"
+            href="assets/Resume.pdf"
+            download="Stein-Seroussi Resume"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Portfolio</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div
+                id="portfolioCard"
+                class="card"
+                style="height: 15rem"
+                style="width: 15rem"
+              >
+                <a href="https://birdtracker.herokuapp.com/" target="_blank">
+                  <img
+                    src="assets/birdtracker.png"
+                    id="portfolioImage"
+                    class="card-img-top"
+                    alt="Bird Tracker Image"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text" id="portfolioCardText">
+                    A page that allows users to share birds they've spotted and
+                    view what species' other people have seen.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                id="portfolioCard"
+                class="card"
+                style="height: 15rem"
+                style="width: 15rem"
+              >
+                <a
+                  href="https://arcane-dawn-08999.herokuapp.com/notes"
+                  target="_blank"
+                >
+                  <img
+                    id="portfolioImage"
+                    src="assets/notetaker.jpg"
+                    class="card-img-top"
+                    alt="Notetaker Screenshot"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text" id="portfolioCardText">
+                    A basic note taker app that saves notes to local storage and
+                    then allows a user to edit or delete them upon completion.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+              <div
+                id="portfolioCard"
+                class="card"
+                style="height: 15rem"
+                style="width: 15rem"
+              >
+                <a
+                  href="https://gsteinseroussi.github.io/homework6/"
+                  target="_blank"
+                >
+                  <img
+                    id="portfolioImage"
+                    src="assets/weather.jpg"
+                    class="card-img-top"
+                    alt="Weather App"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text" id="portfolioCardText">
+                    This page allows a user to look up the forecast in their
+                    area. They can also save multiple locations to their
+                    dashboard.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                id="portfolioCard"
+                class="card"
+                style="height: 15rem"
+                style="width: 15rem"
+              >
+                <a
+                  href="https://gsteinseroussi.github.io/homework5/"
+                  target="_blank"
+                >
+                  <img
+                    id="portfolioImage"
+                    src="assets/workday_scheduler.jpg"
+                    class="card-img-top"
+                    alt="Workday planner"
+                /></a>
+                <div class="card-body">
+                  <p class="card-text" id="portfolioCardText">
+                    This page allows you to schedule items in an hourly
+                    calendar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

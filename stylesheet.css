@@ -30,6 +30,8 @@
 #portfolioCardText {
   position: absolute;
   bottom: 2px;
+  left: 2px;
+  right: 2px;
 }
 
 #portfolioImage {
